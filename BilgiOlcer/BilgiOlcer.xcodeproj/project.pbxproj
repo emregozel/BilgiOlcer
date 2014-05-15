@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D209AE851924A4ED0018F6B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D209AE841924A4ED0018F6B8 /* Foundation.framework */; };
+		D209AE871924A4ED0018F6B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D209AE861924A4ED0018F6B8 /* CoreGraphics.framework */; };
+		D209AE891924A4ED0018F6B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D209AE881924A4ED0018F6B8 /* UIKit.framework */; };
+		D209AE8F1924A4ED0018F6B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D209AE8D1924A4ED0018F6B8 /* InfoPlist.strings */; };
+		D209AE911924A4ED0018F6B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D209AE901924A4ED0018F6B8 /* main.m */; };
+		D209AE951924A4ED0018F6B8 /* bilgiOlcerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D209AE941924A4ED0018F6B8 /* bilgiOlcerAppDelegate.m */; };
+		D209AE981924A4ED0018F6B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D209AE961924A4ED0018F6B8 /* Main.storyboard */; };
+		D209AE9B1924A4ED0018F6B8 /* bilgiOlcerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D209AE9A1924A4ED0018F6B8 /* bilgiOlcerViewController.m */; };
+		D209AE9D1924A4ED0018F6B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D209AE9C1924A4ED0018F6B8 /* Images.xcassets */; };
+		D209AEA41924A4ED0018F6B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D209AEA31924A4ED0018F6B8 /* XCTest.framework */; };
+		D209AEA51924A4ED0018F6B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D209AE841924A4ED0018F6B8 /* Foundation.framework */; };
+		D209AEA61924A4ED0018F6B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D209AE881924A4ED0018F6B8 /* UIKit.framework */; };
+		D209AEAE1924A4ED0018F6B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D209AEAC1924A4ED0018F6B8 /* InfoPlist.strings */; };
+		D209AEB01924A4ED0018F6B8 /* BilgiOlcerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D209AEAF1924A4ED0018F6B8 /* BilgiOlcerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D209AEA71924A4ED0018F6B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D209AE791924A4ED0018F6B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D209AE801924A4ED0018F6B8;
+			remoteInfo = BilgiOlcer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D209AE811924A4ED0018F6B8 /* BilgiOlcer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilgiOlcer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D209AE841924A4ED0018F6B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D209AE861924A4ED0018F6B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D209AE881924A4ED0018F6B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D209AE8C1924A4ED0018F6B8 /* BilgiOlcer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BilgiOlcer-Info.plist"; sourceTree = "<group>"; };
+		D209AE8E1924A4ED0018F6B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D209AE901924A4ED0018F6B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D209AE921924A4ED0018F6B8 /* BilgiOlcer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BilgiOlcer-Prefix.pch"; sourceTree = "<group>"; };
+		D209AE931924A4ED0018F6B8 /* bilgiOlcerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bilgiOlcerAppDelegate.h; sourceTree = "<group>"; };
+		D209AE941924A4ED0018F6B8 /* bilgiOlcerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bilgiOlcerAppDelegate.m; sourceTree = "<group>"; };
+		D209AE971924A4ED0018F6B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D209AE991924A4ED0018F6B8 /* bilgiOlcerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bilgiOlcerViewController.h; sourceTree = "<group>"; };
+		D209AE9A1924A4ED0018F6B8 /* bilgiOlcerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bilgiOlcerViewController.m; sourceTree = "<group>"; };
+		D209AE9C1924A4ED0018F6B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D209AEA21924A4ED0018F6B8 /* BilgiOlcerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilgiOlcerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D209AEA31924A4ED0018F6B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D209AEAB1924A4ED0018F6B8 /* BilgiOlcerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BilgiOlcerTests-Info.plist"; sourceTree = "<group>"; };
+		D209AEAD1924A4ED0018F6B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D209AEAF1924A4ED0018F6B8 /* BilgiOlcerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BilgiOlcerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D209AE7E1924A4ED0018F6B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209AE871924A4ED0018F6B8 /* CoreGraphics.framework in Frameworks */,
+				D209AE891924A4ED0018F6B8 /* UIKit.framework in Frameworks */,
+				D209AE851924A4ED0018F6B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209AE9F1924A4ED0018F6B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209AEA41924A4ED0018F6B8 /* XCTest.framework in Frameworks */,
+				D209AEA61924A4ED0018F6B8 /* UIKit.framework in Frameworks */,
+				D209AEA51924A4ED0018F6B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D209AE781924A4ED0018F6B8 = {
+			isa = PBXGroup;
+			children = (
+				D209AE8A1924A4ED0018F6B8 /* BilgiOlcer */,
+				D209AEA91924A4ED0018F6B8 /* BilgiOlcerTests */,
+				D209AE831924A4ED0018F6B8 /* Frameworks */,
+				D209AE821924A4ED0018F6B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D209AE821924A4ED0018F6B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D209AE811924A4ED0018F6B8 /* BilgiOlcer.app */,
+				D209AEA21924A4ED0018F6B8 /* BilgiOlcerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D209AE831924A4ED0018F6B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D209AE841924A4ED0018F6B8 /* Foundation.framework */,
+				D209AE861924A4ED0018F6B8 /* CoreGraphics.framework */,
+				D209AE881924A4ED0018F6B8 /* UIKit.framework */,
+				D209AEA31924A4ED0018F6B8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D209AE8A1924A4ED0018F6B8 /* BilgiOlcer */ = {
+			isa = PBXGroup;
+			children = (
+				D209AE931924A4ED0018F6B8 /* bilgiOlcerAppDelegate.h */,
+				D209AE941924A4ED0018F6B8 /* bilgiOlcerAppDelegate.m */,
+				D209AE961924A4ED0018F6B8 /* Main.storyboard */,
+				D209AE991924A4ED0018F6B8 /* bilgiOlcerViewController.h */,
+				D209AE9A1924A4ED0018F6B8 /* bilgiOlcerViewController.m */,
+				D209AE9C1924A4ED0018F6B8 /* Images.xcassets */,
+				D209AE8B1924A4ED0018F6B8 /* Supporting Files */,
+			);
+			path = BilgiOlcer;
+			sourceTree = "<group>";
+		};
+		D209AE8B1924A4ED0018F6B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D209AE8C1924A4ED0018F6B8 /* BilgiOlcer-Info.plist */,
+				D209AE8D1924A4ED0018F6B8 /* InfoPlist.strings */,
+				D209AE901924A4ED0018F6B8 /* main.m */,
+				D209AE921924A4ED0018F6B8 /* BilgiOlcer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D209AEA91924A4ED0018F6B8 /* BilgiOlcerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D209AEAF1924A4ED0018F6B8 /* BilgiOlcerTests.m */,
+				D209AEAA1924A4ED0018F6B8 /* Supporting Files */,
+			);
+			path = BilgiOlcerTests;
+			sourceTree = "<group>";
+		};
+		D209AEAA1924A4ED0018F6B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D209AEAB1924A4ED0018F6B8 /* BilgiOlcerTests-Info.plist */,
+				D209AEAC1924A4ED0018F6B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D209AE801924A4ED0018F6B8 /* BilgiOlcer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D209AEB31924A4ED0018F6B8 /* Build configuration list for PBXNativeTarget "BilgiOlcer" */;
+			buildPhases = (
+				D209AE7D1924A4ED0018F6B8 /* Sources */,
+				D209AE7E1924A4ED0018F6B8 /* Frameworks */,
+				D209AE7F1924A4ED0018F6B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BilgiOlcer;
+			productName = BilgiOlcer;
+			productReference = D209AE811924A4ED0018F6B8 /* BilgiOlcer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D209AEA11924A4ED0018F6B8 /* BilgiOlcerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D209AEB61924A4ED0018F6B8 /* Build configuration list for PBXNativeTarget "BilgiOlcerTests" */;
+			buildPhases = (
+				D209AE9E1924A4ED0018F6B8 /* Sources */,
+				D209AE9F1924A4ED0018F6B8 /* Frameworks */,
+				D209AEA01924A4ED0018F6B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D209AEA81924A4ED0018F6B8 /* PBXTargetDependency */,
+			);
+			name = BilgiOlcerTests;
+			productName = BilgiOlcerTests;
+			productReference = D209AEA21924A4ED0018F6B8 /* BilgiOlcerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D209AE791924A4ED0018F6B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bilgiOlcer;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = EmreAnilGozel;
+				TargetAttributes = {
+					D209AEA11924A4ED0018F6B8 = {
+						TestTargetID = D209AE801924A4ED0018F6B8;
+					};
+				};
+			};
+			buildConfigurationList = D209AE7C1924A4ED0018F6B8 /* Build configuration list for PBXProject "BilgiOlcer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D209AE781924A4ED0018F6B8;
+			productRefGroup = D209AE821924A4ED0018F6B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D209AE801924A4ED0018F6B8 /* BilgiOlcer */,
+				D209AEA11924A4ED0018F6B8 /* BilgiOlcerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D209AE7F1924A4ED0018F6B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209AE9D1924A4ED0018F6B8 /* Images.xcassets in Resources */,
+				D209AE8F1924A4ED0018F6B8 /* InfoPlist.strings in Resources */,
+				D209AE981924A4ED0018F6B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209AEA01924A4ED0018F6B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209AEAE1924A4ED0018F6B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D209AE7D1924A4ED0018F6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209AE9B1924A4ED0018F6B8 /* bilgiOlcerViewController.m in Sources */,
+				D209AE951924A4ED0018F6B8 /* bilgiOlcerAppDelegate.m in Sources */,
+				D209AE911924A4ED0018F6B8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209AE9E1924A4ED0018F6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209AEB01924A4ED0018F6B8 /* BilgiOlcerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D209AEA81924A4ED0018F6B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D209AE801924A4ED0018F6B8 /* BilgiOlcer */;
+			targetProxy = D209AEA71924A4ED0018F6B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D209AE8D1924A4ED0018F6B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D209AE8E1924A4ED0018F6B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D209AE961924A4ED0018F6B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D209AE971924A4ED0018F6B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D209AEAC1924A4ED0018F6B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D209AEAD1924A4ED0018F6B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D209AEB11924A4ED0018F6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D209AEB21924A4ED0018F6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D209AEB41924A4ED0018F6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BilgiOlcer/BilgiOlcer-Prefix.pch";
+				INFOPLIST_FILE = "BilgiOlcer/BilgiOlcer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D209AEB51924A4ED0018F6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BilgiOlcer/BilgiOlcer-Prefix.pch";
+				INFOPLIST_FILE = "BilgiOlcer/BilgiOlcer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D209AEB71924A4ED0018F6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BilgiOlcer.app/BilgiOlcer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BilgiOlcer/BilgiOlcer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BilgiOlcerTests/BilgiOlcerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D209AEB81924A4ED0018F6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BilgiOlcer.app/BilgiOlcer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BilgiOlcer/BilgiOlcer-Prefix.pch";
+				INFOPLIST_FILE = "BilgiOlcerTests/BilgiOlcerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D209AE7C1924A4ED0018F6B8 /* Build configuration list for PBXProject "BilgiOlcer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209AEB11924A4ED0018F6B8 /* Debug */,
+				D209AEB21924A4ED0018F6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D209AEB31924A4ED0018F6B8 /* Build configuration list for PBXNativeTarget "BilgiOlcer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209AEB41924A4ED0018F6B8 /* Debug */,
+				D209AEB51924A4ED0018F6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D209AEB61924A4ED0018F6B8 /* Build configuration list for PBXNativeTarget "BilgiOlcerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209AEB71924A4ED0018F6B8 /* Debug */,
+				D209AEB81924A4ED0018F6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D209AE791924A4ED0018F6B8 /* Project object */;
+}
