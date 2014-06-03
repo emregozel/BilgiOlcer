@@ -21,6 +21,7 @@
 		D209AEA61924A4ED0018F6B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D209AE881924A4ED0018F6B8 /* UIKit.framework */; };
 		D209AEAE1924A4ED0018F6B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D209AEAC1924A4ED0018F6B8 /* InfoPlist.strings */; };
 		D209AEB01924A4ED0018F6B8 /* BilgiOlcerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D209AEAF1924A4ED0018F6B8 /* BilgiOlcerTests.m */; };
+		D275D900193E56C700A6A83D /* bilgiolcerlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D275D8FF193E56C700A6A83D /* bilgiolcerlogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D209AEAB1924A4ED0018F6B8 /* BilgiOlcerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BilgiOlcerTests-Info.plist"; sourceTree = "<group>"; };
 		D209AEAD1924A4ED0018F6B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D209AEAF1924A4ED0018F6B8 /* BilgiOlcerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BilgiOlcerTests.m; sourceTree = "<group>"; };
+		D275D8FF193E56C700A6A83D /* bilgiolcerlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bilgiolcerlogo.png; path = ../../../Desktop/bilgiolcerlogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		D209AE8A1924A4ED0018F6B8 /* BilgiOlcer */ = {
 			isa = PBXGroup;
 			children = (
+				D275D8FF193E56C700A6A83D /* bilgiolcerlogo.png */,
 				D209AE931924A4ED0018F6B8 /* bilgiOlcerAppDelegate.h */,
 				D209AE941924A4ED0018F6B8 /* bilgiOlcerAppDelegate.m */,
 				D209AE961924A4ED0018F6B8 /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				D209AE9D1924A4ED0018F6B8 /* Images.xcassets in Resources */,
 				D209AE8F1924A4ED0018F6B8 /* InfoPlist.strings in Resources */,
+				D275D900193E56C700A6A83D /* bilgiolcerlogo.png in Resources */,
 				D209AE981924A4ED0018F6B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +461,7 @@
 				D209AEB51924A4ED0018F6B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D209AEB61924A4ED0018F6B8 /* Build configuration list for PBXNativeTarget "BilgiOlcerTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				D209AEB81924A4ED0018F6B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
