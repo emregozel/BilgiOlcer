@@ -121,10 +121,10 @@
             </objects>
             <point key="canvasLocation" x="260" y="51"/>
         </scene>
-        <!--View Controller-->
+        <!--Game View Controller-->
         <scene sceneID="Rwm-vw-IFD">
             <objects>
-                <viewController id="ON8-Rg-ZGK" sceneMemberID="viewController">
+                <viewController id="ON8-Rg-ZGK" customClass="GameViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="41i-ny-RLJ"/>
                         <viewControllerLayoutGuide type="bottom" id="pW4-Aq-96o"/>
@@ -134,19 +134,74 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Buraya soru falan gelebilir bence." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ev4-Gq-Ft0">
-                                <rect key="frame" x="20" y="133" width="280" height="44"/>
+                                <rect key="frame" x="20" y="82" width="280" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHf-q9-yRR">
+                                <rect key="frame" x="20" y="233" width="280" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76862745099999996" green="0.17254901959999999" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AnswerA:" destination="ON8-Rg-ZGK" eventType="touchUpInside" id="VdY-F4-m9w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HeV-fs-wJe">
+                                <rect key="frame" x="20" y="281" width="280" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76862745099999996" green="0.17254901959999999" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AnswerB:" destination="ON8-Rg-ZGK" eventType="touchUpInside" id="eKV-9w-IK9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YK1-fk-0Di">
+                                <rect key="frame" x="20" y="329" width="280" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76862745099999996" green="0.17254901959999999" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AnswerC:" destination="ON8-Rg-ZGK" eventType="touchUpInside" id="2dT-DD-LMb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAc-hU-nOh">
+                                <rect key="frame" x="20" y="377" width="280" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76862745099999996" green="0.17254901959999999" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AnswerD:" destination="ON8-Rg-ZGK" eventType="touchUpInside" id="aUj-Is-CBW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="AnswerA" destination="zHf-q9-yRR" id="x2Q-US-A4N"/>
+                        <outlet property="AnswerB" destination="HeV-fs-wJe" id="wRI-y0-SFE"/>
+                        <outlet property="AnswerC" destination="YK1-fk-0Di" id="gin-UX-xXh"/>
+                        <outlet property="AnswerD" destination="zAc-hU-nOh" id="MGm-4R-iV1"/>
+                        <outlet property="QuestionText" destination="Ev4-Gq-Ft0" id="K7d-cX-98Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YAv-xE-1cp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="684" y="-248"/>
+            <point key="canvasLocation" x="606" y="51"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uQR-4a-pO0">
@@ -171,7 +226,7 @@
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="pNV-ep-SkL"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bilgiolcerlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="d1x-Oi-cuY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="d1x-Oi-cuY">
                                 <rect key="frame" x="25" y="172" width="270" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -185,7 +240,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bilgiolcerlogo.png" width="419" height="183"/>
+        <image name="logo.png" width="414" height="182"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
