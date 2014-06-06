@@ -23,6 +23,9 @@
 		D209AEB01924A4ED0018F6B8 /* BilgiOlcerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D209AEAF1924A4ED0018F6B8 /* BilgiOlcerTests.m */; };
 		D245A700193FDDE8003607D7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D245A6FF193FDDE8003607D7 /* logo.png */; };
 		D275D903193E5C0F00A6A83D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D275D902193E5C0F00A6A83D /* GameViewController.m */; };
+		D28B37DA194274C400C9A36B /* game-over.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D28B37D9194274C400C9A36B /* game-over.jpg */; };
+		D28B37DC19427BA300C9A36B /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = D28B37DB19427BA300C9A36B /* win.png */; };
+		D2CC13B519424434009E3894 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CC13B419424434009E3894 /* CategoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,10 @@
 		D245A6FF193FDDE8003607D7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../Tasarim/logo.png; sourceTree = "<group>"; };
 		D275D901193E5C0F00A6A83D /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		D275D902193E5C0F00A6A83D /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D28B37D9194274C400C9A36B /* game-over.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "game-over.jpg"; path = "../../../Desktop/game-over.jpg"; sourceTree = "<group>"; };
+		D28B37DB19427BA300C9A36B /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win.png; path = ../../../Desktop/win.png; sourceTree = "<group>"; };
+		D2CC13B319424434009E3894 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		D2CC13B419424434009E3894 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +124,6 @@
 		D209AE8A1924A4ED0018F6B8 /* BilgiOlcer */ = {
 			isa = PBXGroup;
 			children = (
-				D245A6FF193FDDE8003607D7 /* logo.png */,
 				D209AE931924A4ED0018F6B8 /* bilgiOlcerAppDelegate.h */,
 				D209AE941924A4ED0018F6B8 /* bilgiOlcerAppDelegate.m */,
 				D209AE961924A4ED0018F6B8 /* Main.storyboard */,
@@ -125,8 +131,11 @@
 				D209AE9A1924A4ED0018F6B8 /* bilgiOlcerViewController.m */,
 				D275D901193E5C0F00A6A83D /* GameViewController.h */,
 				D275D902193E5C0F00A6A83D /* GameViewController.m */,
+				D2CC13B319424434009E3894 /* CategoryViewController.h */,
+				D2CC13B419424434009E3894 /* CategoryViewController.m */,
 				D209AE9C1924A4ED0018F6B8 /* Images.xcassets */,
 				D209AE8B1924A4ED0018F6B8 /* Supporting Files */,
+				D2CC13B2194241DA009E3894 /* Images */,
 			);
 			path = BilgiOlcer;
 			sourceTree = "<group>";
@@ -158,6 +167,16 @@
 				D209AEAC1924A4ED0018F6B8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2CC13B2194241DA009E3894 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D28B37D9194274C400C9A36B /* game-over.jpg */,
+				D28B37DB19427BA300C9A36B /* win.png */,
+				D245A6FF193FDDE8003607D7 /* logo.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +227,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = EmreAnilGozel;
 				TargetAttributes = {
+					D209AE801924A4ED0018F6B8 = {
+						DevelopmentTeam = 2JH5ABCWMP;
+					};
 					D209AEA11924A4ED0018F6B8 = {
 						TestTargetID = D209AE801924A4ED0018F6B8;
 					};
@@ -237,7 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28B37DC19427BA300C9A36B /* win.png in Resources */,
 				D209AE9D1924A4ED0018F6B8 /* Images.xcassets in Resources */,
+				D28B37DA194274C400C9A36B /* game-over.jpg in Resources */,
 				D245A700193FDDE8003607D7 /* logo.png in Resources */,
 				D209AE8F1924A4ED0018F6B8 /* InfoPlist.strings in Resources */,
 				D209AE981924A4ED0018F6B8 /* Main.storyboard in Resources */,
@@ -260,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D275D903193E5C0F00A6A83D /* GameViewController.m in Sources */,
+				D2CC13B519424434009E3894 /* CategoryViewController.m in Sources */,
 				D209AE9B1924A4ED0018F6B8 /* bilgiOlcerViewController.m in Sources */,
 				D209AE951924A4ED0018F6B8 /* bilgiOlcerAppDelegate.m in Sources */,
 				D209AE911924A4ED0018F6B8 /* main.m in Sources */,
@@ -387,10 +412,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BilgiOlcer/BilgiOlcer-Prefix.pch";
 				INFOPLIST_FILE = "BilgiOlcer/BilgiOlcer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -400,10 +428,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BilgiOlcer/BilgiOlcer-Prefix.pch";
 				INFOPLIST_FILE = "BilgiOlcer/BilgiOlcer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
