@@ -22,7 +22,7 @@ BOOL GameInProgress;
 @interface GameViewController : UIViewController{
     
     IBOutlet UILabel *QuestionText;
-    IBOutlet UINavigationBar *CategorySelected;
+    IBOutlet UILabel *CategorySelected;
     IBOutlet UIButton *AnswerA;
     IBOutlet UIButton *AnswerB;
     IBOutlet UIButton *AnswerC;
@@ -32,6 +32,8 @@ BOOL GameInProgress;
     IBOutlet UILabel *Score;
     IBOutlet UILabel *Lives;
     IBOutlet UIImageView *Result;
+    IBOutlet UILabel *ScoreText;
+    IBOutlet UILabel *LivesText;
     
 }
 

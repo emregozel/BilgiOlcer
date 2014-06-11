@@ -21,10 +21,18 @@
 		D209AEA61924A4ED0018F6B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D209AE881924A4ED0018F6B8 /* UIKit.framework */; };
 		D209AEAE1924A4ED0018F6B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D209AEAC1924A4ED0018F6B8 /* InfoPlist.strings */; };
 		D209AEB01924A4ED0018F6B8 /* BilgiOlcerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D209AEAF1924A4ED0018F6B8 /* BilgiOlcerTests.m */; };
-		D245A700193FDDE8003607D7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D245A6FF193FDDE8003607D7 /* logo.png */; };
+		D2526C2C1944AA8F00FED9D2 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2526C291944AA8F00FED9D2 /* Icon-60@2x.png */; };
+		D2526C2D1944AA8F00FED9D2 /* Icon-Small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2526C2A1944AA8F00FED9D2 /* Icon-Small-40@2x.png */; };
+		D2526C2E1944AA8F00FED9D2 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2526C2B1944AA8F00FED9D2 /* Icon-Small@2x.png */; };
+		D2526C301944AAAB00FED9D2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D2526C2F1944AAAB00FED9D2 /* logo.png */; };
 		D275D903193E5C0F00A6A83D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D275D902193E5C0F00A6A83D /* GameViewController.m */; };
-		D28B37DA194274C400C9A36B /* game-over.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D28B37D9194274C400C9A36B /* game-over.jpg */; };
-		D28B37DC19427BA300C9A36B /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = D28B37DB19427BA300C9A36B /* win.png */; };
+		D28450521943911A00E4413B /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = D28450511943911A00E4413B /* win.png */; };
+		D2845058194393B000E4413B /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = D2845057194393B000E4413B /* gameover.png */; };
+		D284505A1943943800E4413B /* yanlis.png in Resources */ = {isa = PBXBuildFile; fileRef = D28450591943943800E4413B /* yanlis.png */; };
+		D284506019439F4300E4413B /* Exit.png in Resources */ = {isa = PBXBuildFile; fileRef = D284505F19439F4300E4413B /* Exit.png */; };
+		D284506219439F9D00E4413B /* CategorySelect.png in Resources */ = {isa = PBXBuildFile; fileRef = D284506119439F9D00E4413B /* CategorySelect.png */; };
+		D28450641943A1AC00E4413B /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = D28450631943A1AC00E4413B /* Play.png */; };
+		D2BF750D19433F65003B1D19 /* BilgiOlceIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2BF750C19433F65003B1D19 /* BilgiOlceIcon.png */; };
 		D2CC13B519424434009E3894 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CC13B419424434009E3894 /* CategoryViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -58,11 +66,19 @@
 		D209AEAB1924A4ED0018F6B8 /* BilgiOlcerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BilgiOlcerTests-Info.plist"; sourceTree = "<group>"; };
 		D209AEAD1924A4ED0018F6B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D209AEAF1924A4ED0018F6B8 /* BilgiOlcerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BilgiOlcerTests.m; sourceTree = "<group>"; };
-		D245A6FF193FDDE8003607D7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../Tasarim/logo.png; sourceTree = "<group>"; };
+		D2526C291944AA8F00FED9D2 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		D2526C2A1944AA8F00FED9D2 /* Icon-Small-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40@2x.png"; sourceTree = "<group>"; };
+		D2526C2B1944AA8F00FED9D2 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		D2526C2F1944AAAB00FED9D2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		D275D901193E5C0F00A6A83D /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		D275D902193E5C0F00A6A83D /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		D28B37D9194274C400C9A36B /* game-over.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "game-over.jpg"; path = "../../../Desktop/game-over.jpg"; sourceTree = "<group>"; };
-		D28B37DB19427BA300C9A36B /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win.png; path = ../../../Desktop/win.png; sourceTree = "<group>"; };
+		D28450511943911A00E4413B /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = win.png; sourceTree = "<group>"; };
+		D2845057194393B000E4413B /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		D28450591943943800E4413B /* yanlis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yanlis.png; sourceTree = "<group>"; };
+		D284505F19439F4300E4413B /* Exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exit.png; sourceTree = "<group>"; };
+		D284506119439F9D00E4413B /* CategorySelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CategorySelect.png; sourceTree = "<group>"; };
+		D28450631943A1AC00E4413B /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		D2BF750C19433F65003B1D19 /* BilgiOlceIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BilgiOlceIcon.png; path = ../../../Desktop/BilgiOlceIcon.png; sourceTree = "<group>"; };
 		D2CC13B319424434009E3894 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
 		D2CC13B419424434009E3894 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,9 +188,17 @@
 		D2CC13B2194241DA009E3894 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D28B37D9194274C400C9A36B /* game-over.jpg */,
-				D28B37DB19427BA300C9A36B /* win.png */,
-				D245A6FF193FDDE8003607D7 /* logo.png */,
+				D2BF750C19433F65003B1D19 /* BilgiOlceIcon.png */,
+				D28450511943911A00E4413B /* win.png */,
+				D284506119439F9D00E4413B /* CategorySelect.png */,
+				D28450631943A1AC00E4413B /* Play.png */,
+				D2845057194393B000E4413B /* gameover.png */,
+				D28450591943943800E4413B /* yanlis.png */,
+				D284505F19439F4300E4413B /* Exit.png */,
+				D2526C291944AA8F00FED9D2 /* Icon-60@2x.png */,
+				D2526C2F1944AAAB00FED9D2 /* logo.png */,
+				D2526C2A1944AA8F00FED9D2 /* Icon-Small-40@2x.png */,
+				D2526C2B1944AA8F00FED9D2 /* Icon-Small@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -259,12 +283,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28B37DC19427BA300C9A36B /* win.png in Resources */,
+				D284506019439F4300E4413B /* Exit.png in Resources */,
+				D2526C2D1944AA8F00FED9D2 /* Icon-Small-40@2x.png in Resources */,
+				D2526C301944AAAB00FED9D2 /* logo.png in Resources */,
+				D28450521943911A00E4413B /* win.png in Resources */,
+				D2BF750D19433F65003B1D19 /* BilgiOlceIcon.png in Resources */,
+				D2526C2E1944AA8F00FED9D2 /* Icon-Small@2x.png in Resources */,
 				D209AE9D1924A4ED0018F6B8 /* Images.xcassets in Resources */,
-				D28B37DA194274C400C9A36B /* game-over.jpg in Resources */,
-				D245A700193FDDE8003607D7 /* logo.png in Resources */,
+				D284506219439F9D00E4413B /* CategorySelect.png in Resources */,
+				D284505A1943943800E4413B /* yanlis.png in Resources */,
 				D209AE8F1924A4ED0018F6B8 /* InfoPlist.strings in Resources */,
 				D209AE981924A4ED0018F6B8 /* Main.storyboard in Resources */,
+				D2526C2C1944AA8F00FED9D2 /* Icon-60@2x.png in Resources */,
+				D28450641943A1AC00E4413B /* Play.png in Resources */,
+				D2845058194393B000E4413B /* gameover.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
